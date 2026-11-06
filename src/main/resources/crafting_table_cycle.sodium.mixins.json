@@ -1,0 +1,12 @@
+{
+  "required": false,
+  "package": "ru.dogod.craftingtablecycle.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "crafting_table_cycle.refmap.json",
+  "client": [
+    "SodiumBlockRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  }
+}

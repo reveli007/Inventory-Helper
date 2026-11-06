@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[61,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="inventory_helper"
+version="${version}"
+displayName="Inventory Helper"
+authors="dogod"
+description='''Client-side inventory and HUD helpers for Minecraft Forge 1.21.11.'''
+
+[[dependencies.inventory_helper]]
+    modId="forge"
+    mandatory=true
+    versionRange="[61.2.1,62)"
+    ordering="NONE"
+    side="CLIENT"
+
+[[dependencies.inventory_helper]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21.11,1.22)"
+    ordering="NONE"
+    side="CLIENT"

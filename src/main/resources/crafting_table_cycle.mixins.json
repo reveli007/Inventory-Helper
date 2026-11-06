@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "ru.dogod.craftingtablecycle.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "crafting_table_cycle.refmap.json",
+  "client": [
+    "CreativeArmorSwapMixin",
+    "CreativeSlotAccessor",
+    "DropSelectedItemMixin",
+    "InventoryBackgroundDimMixin",
+    "AnvilCostIndicatorMixin",
+    "InventorySortButtonMixin",
+    "ItemPickupOverlayMixin",
+    "ItemStackDurabilityBarMixin",
+    "RightClickArmorSwapMixin",
+    "ScreenAccessorMixin",
+    "StatusEffectHudMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
